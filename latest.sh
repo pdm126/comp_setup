@@ -9,3 +9,17 @@ sudo apt-get install ntop
 sudo apt-get install powertop
 sudo apt-get install ettercap-text-only ettercap-graphical
 
+# sudo uwf enable ??
+cd Dcouments
+mkdir pentest
+cd pentest
+mkdir explots
+mkdir tools
+mkdir wordlists
+mkdir mobile
+cd mobile
+wget -nc http://dl.google.com/android/android-sdk_r22.6-linux.tgz
+tar -xvf android-sdk_r22.6-linux.tgz
+rm -rf android-sdk_r22.6-linux.tgz
+cd ..
+
