@@ -32,3 +32,10 @@ cd tools
 svn checkout http://theharvester.googlecode.com/svn/trunk/ theharvester
 cd theharvester
 chmod 777 theHarvester.py
+cd ..
+# get fierce
+mkdir fierce
+cd fierce
+wget http://ha.ckers.org/fierce/fierce.pl
+wget http://ha.ckers.org/fierce/hosts.txt
+cd ..
