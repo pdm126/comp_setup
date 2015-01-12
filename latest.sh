@@ -39,3 +39,8 @@ cd fierce
 wget http://ha.ckers.org/fierce/fierce.pl
 wget http://ha.ckers.org/fierce/hosts.txt
 cd ..
+mdkir enum4linux
+get https://labs.portcullis.co.uk/download/enum4linux-0.8.9.tar.gz
+tar -xvf enum4linux-0.8.9.tar.gz
+rm enum4linux-0.8.9.tar.gz
+cd ..
